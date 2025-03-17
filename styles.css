@@ -1,0 +1,22 @@
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    margin-left: 85px;
+}
+
+div ul a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+
+}
+
+.container {
+    margin-left: 85px;
+    display: inline-block;
+}
