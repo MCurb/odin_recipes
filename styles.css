@@ -34,12 +34,12 @@ div ul a {
     margin-top: 20px;
 }
 
-.previous.div {
+.home.div {
     margin-left: 30px;
     margin-top: 20px;
 }
 
-.previous.div.end {
+.home.div.end {
     margin-bottom: 20px;
 }
 
@@ -92,6 +92,8 @@ figcaption {
     font-style: italic;
     text-align: center;
 }
+
+/* Birria Tacos */
 
 
 
