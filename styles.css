@@ -1,17 +1,18 @@
-h1 {
+body {
     font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
     font-size: 50px;
     text-align: center;
 }
 
 h2 {
-    font-family: "Times New Roman", Times, serif;
     font-size: 40px;
     margin-left: 85px;
 }
 
 div ul a {
-    font-family: "Times New Roman", Times, serif;
     font-size: 30px;
 
 }
@@ -19,4 +20,11 @@ div ul a {
 .container {
     margin-left: 85px;
     display: inline-block;
+}
+
+/* Fish Tacos */
+
+button {
+    font-size: 25px;
+    
 }
