@@ -4,7 +4,6 @@
 
 body {
     font-family: "Times New Roman", Times, serif;
-    text-align: center;
 }
 
 h1 {
@@ -14,11 +13,26 @@ h1 {
 
 h2 {
     font-size: 40px;
+    margin-left: 85px;
+}
+
+.index-h2 {
+    margin: auto;
+    text-align: center;
+}
+
+.index.h2 {
+    margin: 0;
 }
 
 ul a {
     font-size: 30px;
     text-decoration: none;
+}
+
+.links-container {
+    text-align: center;
+    margin-top: 25px;
 }
 
 .recipes-links {
