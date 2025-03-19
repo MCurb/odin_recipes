@@ -1,3 +1,4 @@
+/* Universal selectors and all pages styles*/
 * {
     box-sizing: border-box;
 }
@@ -6,15 +7,111 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+/* Text related styles */
 h1 {
     font-size: 50px;
-    text-align: center;
+    margin-left: 85px;
 }
 
 h2 {
     font-size: 40px;
     margin-left: 85px;
 }
+
+h3 {
+    font-size: 30px;
+    margin-left: 85px;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 85px;
+    max-width: 600px;
+}
+
+ol {
+    padding-left: 0px;
+}
+
+li {
+    font-size: 25px;
+    margin-left: 85px;
+    margin-bottom: 15px;
+    max-width: 600px;
+}
+
+/* Image related styles */
+img {
+    display: block;
+    margin-left: 0px;
+    height: auto;
+    width: 600px;   
+}
+
+figcaption {
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+    margin-top: 4px;
+}
+
+figure {
+    margin-left: 85px;
+    margin-bottom: 32px;
+}
+
+/* Button related styles */
+button {
+    font-size: 20px;
+    background-color: #8b0000;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.div {
+    display: inline-block;
+}
+
+.next.div {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.home.div {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.home.div.end {
+    margin-bottom: 20px;
+}
+
+.next.div.end {
+    margin-bottom: 20px;
+}
+
+/* Make these styles universal*/
+.top.image {
+    margin-left: 85px;
+}
+
+.container.card {
+    border: 2px solid rgba(6, 248, 167, 0.429); 
+    display: inline-block; 
+    padding: 25px;
+    margin-left: 85px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Index (homepage) */
 
 .index-h2 {
     margin: auto;
@@ -45,83 +142,6 @@ ul a {
 }
 
 /* Fish Tacos */
-
-.div {
-    display: inline-block;
-}
-
-.next.div {
-    float: right;
-    margin-right: 30px;
-    margin-top: 20px;
-}
-
-.home.div {
-    margin-left: 30px;
-    margin-top: 20px;
-}
-
-.home.div.end {
-    margin-bottom: 20px;
-}
-
-.next.div.end {
-    margin-bottom: 20px;
-}
-
-button {
-    font-size: 20px;
-    background-color: #8b0000;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 25px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 23px;
-    padding-right: 23px;
-
-}
-
-p {
-    font-size: 25px;
-    margin: 0px 85px;
-}
-
-li {
-    font-size: 25px;
-    margin: 0 auto;
-}
-
-h3 {
-    font-size: 30px;
-    margin-left: 100px;
-}
-
-img {
-    display: block;
-    margin-left: 86px;
-    height: auto;
-    width: 600px;
-    
-}
-
-
-figcaption {
-    font-style: italic;
-    text-align: center;
-}
-
-/*Fish Tacos */
-
-.container.card {
-    border: 2px solid rgba(6, 248, 167, 0.429); 
-    display: inline-block; 
-    padding: 25px;
-    margin-left: 100px;
-}
-
-
 
 /* Birria Tacos */
 
