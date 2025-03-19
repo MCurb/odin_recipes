@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Times New Roman", Times, serif;
+    text-align: center;
 }
 
 h1 {
@@ -9,16 +14,16 @@ h1 {
 
 h2 {
     font-size: 40px;
-    margin-left: 85px;
 }
 
 div ul a {
     font-size: 30px;
+    text-decoration: none;
 
 }
 
+
 .container {
-    margin-left: 85px;
     display: inline-block;
 }
 
