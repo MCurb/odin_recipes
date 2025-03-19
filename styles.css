@@ -85,19 +85,17 @@ button {
 
 p {
     font-size: 25px;
-    margin-left: 85px;
-    margin-right: 85px;
+    margin: 0px 85px;
 }
 
 li {
     font-size: 25px;
     margin: 0 auto;
-    max-width: 1250px;
 }
 
 h3 {
     font-size: 30px;
-    margin-left: 85px;
+    margin-left: 100px;
 }
 
 img {
@@ -113,6 +111,17 @@ figcaption {
     font-style: italic;
     text-align: center;
 }
+
+/*Fish Tacos */
+
+.container.card {
+    border: 2px solid rgba(6, 248, 167, 0.429); 
+    display: inline-block; 
+    padding: 25px;
+    margin-left: 100px;
+}
+
+
 
 /* Birria Tacos */
 
