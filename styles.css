@@ -112,9 +112,13 @@ button {
 
 /* Index (homepage) */
 
-.index-h2 {
+.div-index {
     margin: auto;
     text-align: center;
+}
+
+.index.h1 {
+    margin: 20px 0px;
 }
 
 .index.h2 {
